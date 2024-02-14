@@ -10,8 +10,7 @@ void printList()
     for (int i = 0; i < ProductLists.Count; i++)
     {
         Console.WriteLine("Item: " + ProductLists[i]);
-    }
-        
+    }  
 }
 
 void AddProduct()
@@ -24,7 +23,6 @@ void AddProduct()
     else
     {
         ProductLists.Add(temp);
-        Console.WriteLine("Temp: " + temp);
         MainMenu();
     }
 }
