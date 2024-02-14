@@ -31,7 +31,5 @@ void AddProduct()
 
 void MainMenu()
 {
-    Console.WriteLine("temp");
-    Console.WriteLine("temp");
     AddProduct();
 }
